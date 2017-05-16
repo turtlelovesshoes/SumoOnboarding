@@ -1,0 +1,194 @@
+/*Test New.FrontPage for get involved beta testing*/
+    /* Funfact Area */
+       /* Get Involved
+    --------------------------------*/
+    .get-involved-heading .get-involved-title {
+      margin-bottom: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .get-involved-intro {
+      padding-bottom: 40px;
+    }
+    .get-involved-intro blockquote {
+      font-weight: 700;
+      color: #00a7e0;
+      text-transform: uppercase;
+      text-align: center;
+      border-left: none;
+      margin: 25px 0 0 0;
+      border: 4px dotted #00a7e0;
+    }
+    .get-involved-steps {
+      background-color: #eaeff2;
+      padding: 40px 0;
+    }
+    .get-involved-steps .get-involved-heading {
+      text-align: center;
+    }
+    .get-involved-steps .get-involved-heading .get-involved-title {
+      text-transform: uppercase;
+    }
+    .get-involved-steps .process-layout {
+      background: #fff;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    .get-involved-steps .process-img {
+      position: relative;
+    }
+    .get-involved-steps .process-img .step h3 {
+      color: #fff;
+      bottom: 0;
+      font-size: 30px;
+      position: absolute;
+      right: 20px;
+      text-align: center;
+      z-index: 9999;
+      margin-bottom: 0;
+    }
+    .get-involved-steps .process-img .step:after {
+      background: #3c88cc;
+      bottom: 0;
+      content: "";
+      height: 50px;
+      opacity: 0.7;
+      position: absolute;
+      right: 0;
+      width: 60px;
+      -webkit-transition: all 0.5s ease-out;
+      -moz-transition: all 0.5s ease-out;
+      -o-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+    }
+    .get-involved-steps .process-info {
+      padding: 20px 10px;
+    }
+    .get-involved-steps .process-info h4 {
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .get-involved-steps .process-button {
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .get-involved-cta .get-involved-title {
+      margin-bottom: 10px;
+    }
+    .get-involved-cta .get-involved-button {
+      text-align: center;
+      margin-top: 15px;
+    }
+    .get-involved-cta .get-involved-button .lia-button-primary {
+      padding: 10px;
+    }
+    /* END Get Involved */
+     
+    /* Fun Facts
+    --------------------------------*/
+    .funfact-area {
+      background-color: #eaeff2;
+      padding: 40px 0;
+    }
+    .funfact-area .single-fact {
+      display: inline-block;
+      width: 215px;
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      padding: 42px 15px;
+      margin: 0 16px 20px;
+      text-align: center;
+    }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .funfact-area .single-fact {
+        width: 195px;
+        padding: 35px 15px;
+      }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .funfact-area .single-fact {
+        width: 155px;
+        padding: 25px 15px;
+        margin: 0 10px 20px;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      .funfact-area .single-fact {
+        width: 185px;
+        padding: 25px 15px;
+        margin: 0 10px 20px;
+      }
+    }
+    @media only screen and (max-width: 479px) {
+      .funfact-area .single-fact {
+        width: 220px;
+        padding: 45px 30px;
+      }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .funfact-area .single-fact img {
+        width: 45px;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      .funfact-area .single-fact img {
+        width: 45px;
+      }
+    }
+    .funfact-area .single-fact .border {
+      height: 2px;
+      width: 55px;
+      background-color: #b1b1b1;
+      display: block;
+      margin: 15px auto 18px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .funfact-area .single-fact .border {
+        margin: 10px auto 13px;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      .funfact-area .single-fact .border {
+        margin: 10px auto 13px;
+      }
+    }
+    .funfact-area .single-fact h1 {
+      font-size: 36px;
+      font-weight: 700;
+      color: #00a7e0;
+      line-height: 26px;
+      margin-bottom: 17px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .funfact-area .single-fact h1 {
+        font-size: 26px;
+        line-height: 19px;
+        margin-bottom: 10px;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      .funfact-area .single-fact h1 {
+        font-size: 30px;
+        line-height: 24px;
+        margin-bottom: 15px;
+      }
+    }
+    .funfact-area .single-fact p {
+      text-transform: uppercase;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .funfact-area .single-fact p {
+        font-size: 14px;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      .funfact-area .single-fact p {
+        font-size: 14px;
+      }
+    }
+    .funfact-area .lnr {
+      font-size: 56px;
+    }
+    /* END Fun Facts */ 
