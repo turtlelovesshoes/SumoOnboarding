@@ -35,6 +35,10 @@
       margin-bottom: 20px;
       position: relative;
     }
+    .get-involved-steps .process-icon {
+      text-align: center;
+      padding: 25px 25px 0;
+    }
     .get-involved-steps .process-img {
       position: relative;
     }
