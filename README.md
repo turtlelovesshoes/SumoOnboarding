@@ -37,7 +37,21 @@ Test the widget to make sure:
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+You will need 3 custom pages
+And you will need to create 3 custom components
+
+In this repo there are three html files with the names and mark up in each component. The each can be added to a custom page by their name on the quilt you have selected for your custom page. 
+
+###How to edit a Custom Component
+#Go to the page name
+#Look up the component name
+#Click on components
+#Edit the component name that you found from the page name
+#Click save
+#Preview 
+#Change accordingly 
+#If you need to publish (note the time you made the change for queued studio version)
+
 
 ## Built With
 
