@@ -36,7 +36,13 @@ In this repo there are three html files with the names and mark up in each compo
 
 ### How to add a Custom Component
 
-To Do
+1. Go to the Studio
+1. Click on the tab Components
+1. Click on button New Component
+1. Add a name for the new component
+1. Add a FreeMarker macro or HTML that you want
+1. Click in the button Save
+1. If you need to publish (note the time you made the change for queued studio version)
 
 ### How to edit a Custom Component
 
