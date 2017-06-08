@@ -70,7 +70,11 @@ You can use `if`, `elseif` and `else` directives to conditionally skip a section
 
 ### How to create a Custom Page
 
-To Do
+In order to create a custom page in Lithium, with access to Studo, you can go to this menu: Studio > "New"
+1. Then seelct a name (it will be the url name as well)
+1. Select the page layout - you can always change this later
+1. Choose a quilt to copy from (this can be changed later as well by removing components)
+1. Click "Create"
 
 ### How to edit a custom automatic permissions component
 
