@@ -2,6 +2,28 @@
 
 This repo contains the codes for the Get Involved pages of [Mozilla Support](https://support.mozilla.org), which aim to provide a better experience for new contributors on how to start contributing to our Knowledge Base, L10n, Support Forum and Social Support.
 
+## Table of Contents
+
+- [Getting Started](#getting-started)
+	- [Prerequisites](#prerequisites)
+- [Running the tests](#running-the-tests)
+- [Deployment](#deployment)
+	- [How to add a custom component](#how-to-add-a-custom-component)
+	- [How to edit a custom component](#how-to-edit-a-custom-component)
+	- [How to create conditionais](#how-to-create-conditionais)
+	- [How to create a custom page](#how-to-create-a-custom-page)
+	- [How to edit a custom automatic permissions component](#how-to-edit-a-custom-automatic-permissions-component)
+	- [How to add icons](#how-to-add-icons)
+	- [How to edit SASS/CSS](#how-to-edit-sasscss)
+  - [Examples of Deployment currently in production](#examples-of-deployment-currently-in-production)
+  - [User Flows in the Mozilla Onboarding experience](#user-flows-in-the-mozilla-onboarding-experience)
+- [Built With](#built-with)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [Authors](#authors)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
 ## Getting Started
 
 This is a widget that is meant to display custom content based on the custom page that you display. You need a Lithium instance and access to Custom components for this freemarker widget to work. 
@@ -25,7 +47,7 @@ Test the widget to make sure:
 
 1. You do not have duplicated content. Look for comments between if statements and look for html comments that might be comenting out freemarker
 2. Test your html seperate from the freemarker 
-3. Make sure that CSS is not the same name as style from the Lithium Skinn
+3. Make sure that CSS is not the same name as style from the Lithium Skin
 
 ## Deployment
 
@@ -118,27 +140,37 @@ If you want to use one of the icons in the Font Awesome version 4.3, you can jus
 
 ```
 
-### How to add or edit SASS/CSS 
+### How to edit SASS/CSS 
+
+1. Access the Studio
+1. Click on Community Style tab
+1. In "Work with:" dropdown menu, select Community Skins
+1. Click on CSS tab
+1. In "Custom Skins", click on mozilla
+1. Click on the scss file that you want edit and make your changes
+1. Click in the buttom Save
 
 ### Examples of Deployment currently in production
 
 3 Custom Componets that exist in Lithium: 
 
-1.common.get-involved-steps
-2.custom.getinvoled-becomevolunteer
-3.custom.getinvolved-community-call
+1. common.get-involved-steps
+2. custom.getinvoled-becomevolunteer
+3. custom.getinvolved-community-call
 
-common.get-involved-steps
-THis includes 4 tiles that have an icon and links to external pages to read more. Since there are 4 ways to get involved, this page links to the 4 sub categories. 
-This component also can be localized and can be repurposed 
+**common.get-involved-steps**
 
-custom.getinvoled-becomevolunteer
+This includes 4 tiles that have an icon and links to external pages to read more. Since there are 4 ways to get involved, this page links to the 4 sub categories. 
+This component also can be localized and can be repurposed.
+
+**custom.getinvoled-becomevolunteer**
+
 This includeds a page wide element that has a link to the main get involved page. The button is styled like other buttons in the site. 
 
-custom.getinvolved-community-call
-This component serves content and tiles tiles based on the custom page that it is on. It also only shows certian tiles if you are registered or if you have the VIP Role. (This automtic role asigning happens in a seperate component)
+**custom.getinvolved-community-call**
 
- 
+This component serves content and tiles tiles based on the custom page that it is on. It also only shows certian tiles if you are registered or if you have the VIP Role. (This automtic role asigning happens in a seperate component).
+
 
 ### User Flows in the Mozilla Onboarding experience
 
@@ -151,7 +183,11 @@ This component serves content and tiles tiles based on the custom page that it i
 
 ## Contributing
 
-Please request a pull request or open an issue with a description of what you wantt to work on. Since this is unter MIT Lisence is comes as it is.
+Please request a pull request or open an issue with a description of what you wantt to work on. Since this is unter MIT License is comes as it is.
+
+Also, see:
+* [Bugzilla Tracker](https://bugzilla.mozilla.org/show_bug.cgi?id=1365078)
+* [Trello Board](https://trello.com/b/TaWjsIBn/lithium-onboarding-workflow)
 
 ## Versioning
 
@@ -161,7 +197,6 @@ We use git for versioning as well as the queued version numbers built into Lithi
 
 * **Cynthia Pereira** - *Initial work* - [CynthiaPereira](https://github.com/cynthiapereira)
 * **Rachel McGuigan** - *Initial work* - [Turtleloveshoes](https://github.com/turtleloveshoes)
-
 
 See also the list of [contributors](https://github.com/turltleloveshoes/SumoOnboarding/contributors) who participated in this project.
 
