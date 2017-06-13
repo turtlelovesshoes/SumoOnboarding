@@ -167,7 +167,7 @@ See also the list of [contributors](https://github.com/turltleloveshoes/SumoOnbo
 
 ## License
 
-This project is licensed under the MIT License 
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
