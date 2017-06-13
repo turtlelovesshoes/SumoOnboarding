@@ -120,7 +120,28 @@ If you want to use one of the icons in the Font Awesome version 4.3, you can jus
 
 ### How to add or edit SASS/CSS 
 
-To Do
+### Examples of Deployment currently in production
+
+3 Custom Componets that exist in Lithium: 
+
+1.common.get-involved-steps
+2.custom.getinvoled-becomevolunteer
+3.custom.getinvolved-community-call
+
+common.get-involved-steps
+THis includes 4 tiles that have an icon and links to external pages to read more. Since there are 4 ways to get involved, this page links to the 4 sub categories. 
+This component also can be localized and can be repurposed 
+
+custom.getinvoled-becomevolunteer
+This includeds a page wide element that has a link to the main get involved page. The button is styled like other buttons in the site. 
+
+custom.getinvolved-community-call
+This component serves content and tiles tiles based on the custom page that it is on. It also only shows certian tiles if you are registered or if you have the VIP Role. (This automtic role asigning happens in a seperate component)
+
+ 
+
+### User Flows in the Mozilla Onboarding experience
+
 
 ## Built With
 
